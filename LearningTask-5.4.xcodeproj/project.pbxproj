@@ -14,6 +14,7 @@
 		58E6BBC327D8E29000979DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E6BBC127D8E29000979DED /* Main.storyboard */; };
 		58E6BBC527D8E29600979DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E6BBC427D8E29600979DED /* Assets.xcassets */; };
 		58E6BBC827D8E29600979DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E6BBC627D8E29600979DED /* LaunchScreen.storyboard */; };
+		D996F33E29096FD9007FD5C0 /* Autor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D996F33D29096FD9007FD5C0 /* Autor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		58E6BBC427D8E29600979DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E6BBC727D8E29600979DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E6BBC927D8E29600979DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D996F33D29096FD9007FD5C0 /* Autor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,49 @@
 		58E6BBBA27D8E29000979DED /* LearningTask-5.4 */ = {
 			isa = PBXGroup;
 			children = (
+				D996F33A29096B6B007FD5C0 /* Files */,
+				58E6BBC627D8E29600979DED /* LaunchScreen.storyboard */,
+				58E6BBC427D8E29600979DED /* Assets.xcassets */,
+				D996F33B29096BA2007FD5C0 /* Views */,
+				D996F33929096B5D007FD5C0 /* Models */,
+				D996F33C29096BAD007FD5C0 /* Scenes */,
+			);
+			path = "LearningTask-5.4";
+			sourceTree = "<group>";
+		};
+		D996F33929096B5D007FD5C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58C495F927D9239400DCA879 /* AutorRepository.swift */,
+				D996F33D29096FD9007FD5C0 /* Autor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D996F33A29096B6B007FD5C0 /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				58E6BBC927D8E29600979DED /* Info.plist */,
 				58E6BBBB27D8E29000979DED /* AppDelegate.swift */,
 				58E6BBBD27D8E29000979DED /* SceneDelegate.swift */,
-				58E6BBC627D8E29600979DED /* LaunchScreen.storyboard */,
-				58E6BBC427D8E29600979DED /* Assets.xcassets */,
-				58E6BBC127D8E29000979DED /* Main.storyboard */,
-				58E6BBBF27D8E29000979DED /* AutorFormViewController.swift */,
-				58C495F927D9239400DCA879 /* AutorRepository.swift */,
 			);
-			path = "LearningTask-5.4";
+			name = Files;
+			sourceTree = "<group>";
+		};
+		D996F33B29096BA2007FD5C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58E6BBC127D8E29000979DED /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D996F33C29096BAD007FD5C0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				58E6BBBF27D8E29000979DED /* AutorFormViewController.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +179,7 @@
 				58E6BBC027D8E29000979DED /* AutorFormViewController.swift in Sources */,
 				58E6BBBC27D8E29000979DED /* AppDelegate.swift in Sources */,
 				58E6BBBE27D8E29000979DED /* SceneDelegate.swift in Sources */,
+				D996F33E29096FD9007FD5C0 /* Autor.swift in Sources */,
 				58C495FA27D9239400DCA879 /* AutorRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
